@@ -22,5 +22,8 @@ This project was part of the IST 707: Applied Machine Learning course. We applie
 - `proposal.md`
 - `supporting docs`
 
+## Software Needed 
+- `Python` (via Jupyter Notebook), `libraries`: Pandas, Scikit-learn, Seaborn, Matplotlib
+
 ## GitHub Link
 [Airbnb Fraud Detection](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/Airbnb-Fraud-Detection)
