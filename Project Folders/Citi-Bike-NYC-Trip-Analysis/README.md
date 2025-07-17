@@ -17,5 +17,8 @@ This project was completed in the IST 652: Scripting for Data Analysis course. W
 - `final_report.ipynb`: Full analysis and charts
 - `Citybike.final.pdf`: Project summary report
 
+## Software Needed
+- `Python` (via Jupyter Notebook), `libraries`: Pandas, Seaborn, Matplotlib
+  
 ## GitHub Link
 [Citi Bike NYC Trip Analysis](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/Citi-Bike-NYC-Trip-Analysis)
