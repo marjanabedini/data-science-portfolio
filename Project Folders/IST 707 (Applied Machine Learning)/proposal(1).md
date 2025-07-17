@@ -1,6 +1,5 @@
 # Detecting Fraudulent Listings on Airbnb
 ## Team
-__POC:__ Sophia Jaskoski
 
 __Members:__
 
