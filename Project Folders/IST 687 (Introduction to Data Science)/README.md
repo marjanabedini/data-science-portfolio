@@ -15,4 +15,4 @@ Developed for IST 687: Introduction to Data Science. The project focused on iden
 - Ethical reflection on user data privacy
 
 ## GitHub Link
-[eSC Energy Consumption](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/eSC-Energy-Consumption)
+[eSC Energy Consumption](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20687%20%28Introduction%20to%20Data%20Science%29)
