@@ -12,4 +12,4 @@ This was an individual project from IST 719: Information Visualization. It analy
 - Communication through visual storytelling
 
 ## GitHub Link
-[Data Science Salary Insights](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/Data-Science-Salary-Insights)
+[Data Science Salary Insights](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20719%20%28Information%20Visualization%29)
