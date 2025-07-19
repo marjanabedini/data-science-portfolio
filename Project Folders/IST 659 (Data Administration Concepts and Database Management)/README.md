@@ -15,4 +15,4 @@ Created as part of IST 659: Data Administration Concepts and DBMS. This project 
 - Secure and ethical data handling
 
 ## GitHub Link
-[Event Management Database](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/Event-Management-DB)
+[Event Management Database](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20659%20%28Data%20Administration%20Concepts%20and%20Database%20Management%29)
