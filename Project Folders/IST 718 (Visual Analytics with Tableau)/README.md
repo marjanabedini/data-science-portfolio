@@ -21,4 +21,4 @@ In IST 718: Visual Analytics with Tableau, our team built a dashboard analyzing 
 🔗 [Download Tableau Dashboard (.twbx)](https://drive.google.com/file/d/1OVG_ZxRcjwOS2cQzonTzGUoAIAeoPTyk/view?usp=drive_link)
 
 ## GitHub Link
-[Tableau Business Dashboard](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/Tableau-Business-Dashboard)
+[Tableau Business Dashboard](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20718%20%28Visual%20Analytics%20with%20Tableau%29)
