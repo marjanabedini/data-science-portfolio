@@ -63,4 +63,7 @@ As part of a team project in **IST 718: Visual Analytics with Tableau**, we anal
 This portfolio brings together everything I’ve learned in the Applied Data Science program. The projects show how I’ve improved in working with data, solving real problems, using tools like Python, R, SQL, and Tableau, and thinking about the ethical side of data science. I’m ready to use these skills in future jobs and keep learning as the field continues to grow.
 
 ---
+### Portfolio Presentation Video
 
+🎥 Watch my 20-minute Applied Data Science Portfolio presentation here:
+https://drive.google.com/file/d/1_3h9LHE0YEZFFXT9KureAq9yIf3E3vn/view?usp=drive_link
