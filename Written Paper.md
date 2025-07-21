@@ -66,4 +66,4 @@ This portfolio brings together everything I’ve learned in the Applied Data Sci
 ### Portfolio Presentation Video
 
 🎥 Watch my 20-minute Applied Data Science Portfolio presentation here:
-https://drive.google.com/file/d/1_3h9LHE0YEZFFXT9KureAq9yIf3E3vn/view?usp=drive_link
+[https://drive.google.com/file/d/1_3h9LHE0YEZFFXT9KureAq9yIf3E3vn/view?usp=drive_link](https://drive.google.com/file/d/1_3Jh9LHE0YEZFFXT9KureAq9yIf3E3vn/view?usp=sharing)
