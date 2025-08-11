@@ -1,0 +1,366 @@
+##DBT lab codes
+
+dim_customer.sql
+
+{{ config(materialized='table') }}
+
+with fudgemart as (
+  select
+    customer_id        as customerid,
+    customer_email     as customeremail,
+    customer_firstname as customerfirstname,
+    customer_lastname  as customerlastname,
+    customer_address   as customeraddress,
+    customer_zip       as customerzip,
+    'fudgemart'        as source_system
+  from {{ source('fudgemart_v3', 'customers') }}
+),
+
+fudgeflix as (
+  select
+    account_id        as customerid,
+    account_email     as customeremail,
+    account_firstname as customerfirstname,
+    account_lastname  as customerlastname,
+    account_address   as customeraddress,
+    account_zipcode   as customerzip,
+    'fudgeflix'       as source_system
+  from {{ source('fudgeflix_v3', 'customers') }}
+),
+
+stg_customers as (
+  select * from fudgemart
+  union all
+  select * from fudgeflix
+)
+
+select
+  concat(source_system, '_', customerid) as customerkey,
+
+  customerid,
+  customeremail,
+  customerfirstname,
+  customerlastname,
+  customeraddress,
+  customerzip,
+  source_system
+
+from stg_customers
+
+dim_customer.yml
+
+version: 2
+
+models:
+  - name: dim_customer
+    description: |
+      Customer dimension combining FudgeMart and FudgeFlix.
+      Each row represents one unique customer or account,
+      with a synthetic surrogate key.
+    columns:
+      - name: customerkey
+        description: "Synthetic key: source_system||'_'||customerid"
+        tests:
+          - not_null
+          - unique
+
+      - name: customerid
+        tests:
+          - not_null
+
+      - name: customeremail
+        description: "Email address"
+
+      - name: customerfirstname
+        description: "First name"
+
+      - name: customerlastname
+        description: "Last name"
+
+      - name: customeraddress
+        description: "Street address"
+
+      - name: customerzip
+        description: "ZIP/postal code"
+
+      - name: source_system
+        description: "Source identifier: 'fudgemart' or 'fudgeflix'"
+        tests:
+          - not_null
+
+dim_date.sql
+select
+  datekey::int   as datekey,
+  date,
+  year,
+  month,
+  quarter,
+  day,
+  dayofweek,
+  weekofyear,
+  dayofyear,
+  quartername,
+  monthname,
+  dayname,
+  weekday
+from {{ source('conformed','DateDimension') }}
+
+dim_date.yml
+version: 2
+
+models:
+  - name: dim_date
+    description: Conformed Date Dimension. One row per day of the year.
+    columns:
+      - name: datekey
+        data_type: int
+        description: The surrogate key of the date (YYYYMMDD)
+        tests:
+          - not_null
+          - unique
+
+      - name: date
+        description: The date of the date key
+        tests:
+          - not_null
+          - unique
+
+dim_product.sql
+{{ config(materialized='table') }}
+
+with fudgemart as (
+  select
+    product_id   as productid,
+    product_name as productname,
+    'fudgemart'  as source_system
+  from {{ source('fudgemart_v3', 'fm_products') }}
+),
+
+fudgeflix as (
+  select
+    plan_id     as productid,
+    plan_name   as productname,
+    'fudgeflix' as source_system
+  from {{ source('fudgeflix_v3', 'ff_plans') }}
+),
+
+stg_products as (
+  select * from fudgemart
+  union all
+  select * from fudgeflix
+)
+
+select
+  -- string key: "fudgemart_ABC" or "fudgeflix_XYZ"
+  concat(source_system, '_', productid) as productkey,
+
+  productid,
+  productname,
+  source_system
+
+from stg_products
+
+dim_product.yml
+version: 2
+
+models:
+  - name: dim_product
+    description: |
+      Product dimension combining FudgeMart products
+      and FudgeFlix subscription plans.
+      One row = one product (from FudgeMart)
+      or plan (from FudgeFlix).
+    columns:
+      - name: productkey
+        description: "Synthetic surrogate key for dim_product"
+        tests:
+          - unique
+          - not_null
+
+      - name: productid
+        description: "Natural key from source (fm_products.product_id or ff_plans.plan_id)"
+        tests:
+          - not_null
+
+      - name: productname
+        description: "Name of the product or plan"
+
+      - name: source_system
+        description: "Source indicator: 'fudgemart' or 'fudgeflix'"
+        tests:
+          - not_null
+
+fact_sales.sql
+
+{{ config(materialized='table') }}
+
+-- FudgeMart sales: one row per order‐detail
+with fudgemart as (
+  select
+    concat('fudgemart_', to_varchar(o.order_id), '_', to_varchar(od.product_id)) as orderid,
+    cast(to_char(o.order_date, 'YYYYMMDD') as int)                    as datekey,
+    concat('fudgemart_', to_varchar(o.customer_id))                   as customerkey,
+    concat('fudgemart_', to_varchar(od.product_id))                   as productkey,
+    od.order_qty                                                      as quantity,
+    od.order_qty * p.product_retail_price                             as revenue,
+    'fudgemart'                                                      as division
+  from {{ source('fudgemart_v3', 'fm_orders') }} o
+  join {{ source('fudgemart_v3', 'fm_order_details') }} od
+    on o.order_id = od.order_id
+  join {{ source('fudgemart_v3', 'fm_products') }} p
+    on od.product_id = p.product_id
+),
+
+-- FudgeFlix billing: one row per billing record
+fudgeflix as (
+  select
+    concat(
+      'fudgeflix_', 
+      to_varchar(ab.ab_account_id), '_',
+      to_varchar(ab.ab_plan_id), '_',
+      to_char(ab.ab_date, 'YYYYMMDD')
+    )                                                                 as orderid,
+    cast(to_char(ab.ab_date, 'YYYYMMDD') as int)                        as datekey,
+    concat('fudgeflix_', to_varchar(ab.ab_account_id))                  as customerkey,
+    concat('fudgeflix_', to_varchar(ab.ab_plan_id))                     as productkey,
+    1                                                                   as quantity,
+    ab.ab_billed_amount                                                 as revenue,
+    'fudgeflix'                                                         as division
+  from {{ source('fudgeflix_v3', 'ff_account_billing') }} ab
+)
+
+
+select * from fudgemart
+union all
+select * from fudgeflix
+
+fact_sales.yml
+
+version: 2
+
+models:
+  - name: fact_sales
+    description: |
+      Sales fact: one row per product‐line item (FudgeMart orders)
+      or per billing event (FudgeFlix subscriptions).
+      Grain = product × order for FudgeMart, billing event for FudgeFlix.
+    columns:
+      - name: orderid
+        description: "Surrogate key: concat(source_system,'_',order+product IDs or billing IDs)"
+        tests:
+          - unique
+          - not_null
+
+      - name: datekey
+        description: "Order or billing date key (FK → dim_date.datekey)"
+        tests:
+          - not_null
+
+      - name: customerkey
+        description: "Customer dimension key (FK → dim_customer.customerkey)"
+        tests:
+          - not_null
+
+      - name: productkey
+        description: "Product dimension key (FK → dim_product.productkey)"
+        tests:
+          - not_null
+
+      - name: quantity
+        description: "Qty sold (order_qty for FudgeMart, 1 per billing for FudgeFlix)"
+
+      - name: revenue
+        description: "Line‐item revenue (qty×unit_price or billed_amount)"
+
+      - name: division
+        description: "Source system: 'fudgemart' or 'fudgeflix'"
+        tests:
+          - not_null
+
+obt_fact_sales.sql
+
+{{ config(materialized='table') }}
+
+with
+  f as (
+    select * from {{ ref('fact_sales') }}
+  ),
+
+  d_customer as (
+    select * from {{ ref('dim_customer') }}
+  ),
+
+  d_product as (
+    select * from {{ ref('dim_product') }}
+  ),
+
+  d_date as (
+    select * from {{ ref('dim_date') }}
+  )
+
+select
+  f.orderid,
+  f.datekey           as orderdatekey,
+  f.customerkey,
+  f.productkey,
+  f.quantity,
+  f.revenue,
+  f.division,
+
+  d_date.date         as orderdate,
+
+  d_customer.customeremail,
+  d_customer.customerfirstname,
+  d_customer.customerlastname,
+  d_customer.customeraddress,
+  d_customer.customerzip,
+
+  d_product.productname
+
+from f
+left join d_date     on f.datekey      = d_date.datekey
+left join d_customer on f.customerkey  = d_customer.customerkey
+left join d_product  on f.productkey   = d_product.productkey
+
+obt_fact_sales.yml
+version: 2
+
+models:
+  - name: obt_fact_sales
+    description: |
+      One-Big-Table for sales: joins fact_sales
+      to dim_date, dim_customer, and dim_product,
+      flattening all attributes into a single wide table
+      for BI consumption.
+
+sources.yml
+version: 2
+
+sources:
+
+  # conformed date dimension
+  - name: conformed               # referenced by dim_date.sql
+    database: raw                 # RAW database in Snowflake
+    schema: conformed             # RAW.CONFORMED schema
+    tables:
+      - name: DateDimension       # RAW.CONFORMED.DateDimension
+
+  # FudgeFlix
+  - name: fudgeflix_v3
+    database: raw
+    schema: fudgeflix_v3
+    tables:
+      - name: ff_accounts         # RAW.FUDGEFLIX_V3.FF_ACCOUNTS
+      - name: ff_plans            # RAW.FUDGEFLIX_V3.FF_PLANS
+      - name: ff_account_billing  # RAW.FUDGEFLIX_V3.FF_ACCOUNT_BILLING
+
+  # FudgeMart
+  - name: fudgemart_v3
+    database: raw
+    schema: fudgemart_v3
+    tables:
+      - name: fm_customers        # RAW.FUDGEMART_V3.FM_CUSTOMERS
+      - name: fm_products         # RAW.FUDGEMART_V3.FM_PRODUCTS
+      - name: fm_orders           # RAW.FUDGEMART_V3.FM_ORDERS
+      - name: fm_order_details    # RAW.FUDGEMART_V3.FM_ORDER_DETAILS
+
