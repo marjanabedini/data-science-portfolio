@@ -29,6 +29,7 @@ Each project demonstrates core skills gained during the program—data analysis,
 | **Event Management Database System** | Designed and implemented a relational database in SQL for event registrations. | [View Project](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20659%20%28Data%20Administration%20Concepts%20and%20Database%20Management%29) |
 | **Data Science Salary Insights** | Visualized global salary disparities by role and region using R and statistical techniques. | [View Project](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20719%20%28Information%20Visualization%29) |
 | **Tableau Business Dashboard – U.S. Storm Analysis** | Built an interactive Tableau dashboard showing storm trends and impact. | [View Project](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20718%20%28Visual%20Analytics%20with%20Tableau%29) |
+| **MarFlix Intelligence ** | Built a Snowflake + dbt data warehouse integrating Fudgemart and Fudgeflix into a star schema with conformed dimensions, fact tables, and Power BI dashboards. | [View Project](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20722%20%28Dta%20Warehouse%29) |
 
 ---
 
