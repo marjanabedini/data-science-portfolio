@@ -33,5 +33,5 @@ This project was part of the IST 722: Data Warehouse course. Our team integrated
 - Azure Blob Storage access
 
 ### GitHub Link
-[**MarFlix Intelligence**](https://github.com/andia941394/Portfolio-2025/tree/main/ist722)
+[**MarFlix Intelligence**](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST722%20%28Data%20Warehouse%29)
 
