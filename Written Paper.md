@@ -59,7 +59,7 @@ As part of a team project in **IST 718: Visual Analytics with Tableau**, we anal
 ---
 
 **Project Title: MarFlix Intelligence**\
-In IST 722: Data Warehouse, our team unified two businesses (Fudgemart retail + Fudgeflix streaming) into a single analytics layer using Snowflake, dbt, Azure Blob (Parquet), and Power BI. We built conformed dimensions (dim_date, dim_customer, dim_product), facts (fact_sales, fact_order_fulfillment), and documented lineage/tests. I led data modeling, wrote SQL ELT (stages, COPY INTO, dim/fact builds), and designed KPI dashboards. Results: reliable star schema, clear lineage, and exec-ready BI views for cross-brand insights.\
+In **IST 722: Data Warehouse**, our team unified two businesses (Fudgemart retail + Fudgeflix streaming) into a single analytics layer using Snowflake, dbt, Azure Blob (Parquet), and Power BI. We built conformed dimensions (dim_date, dim_customer, dim_product), facts (fact_sales, fact_order_fulfillment), and documented lineage/tests. I led data modeling, wrote SQL ELT (stages, COPY INTO, dim/fact builds), and designed KPI dashboards. Results: reliable star schema, clear lineage, and exec-ready BI views for cross-brand insights.\
 ***Learning Goal:*** Design and implement a dimensional data warehouse with robust ELT, documentation, testing, and BI dashboards.\
 🔗 [GitHub Project Link](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST722%20%28Data%20Warehouse%29)
 
