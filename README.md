@@ -1,25 +1,34 @@
-# 📊 Portfolio-2025
+# Marjan Abedini
 
-### M.S. in Applied Data Science – Final Portfolio  
-**Student:** Marjan Abedini  
-**University:** Syracuse University
+## Data Science Portfolio
+
+I'm a Data Scientist with a background in Statistics and an M.S. in Applied Data Science from Syracuse University.
+
+What I enjoy most about data science is turning large, complex datasets into something people can easily understand and use. Whether I'm writing Python code, exploring data, building dashboards, or developing machine learning models, I enjoy discovering patterns that help people make better decisions.
+
+This portfolio brings together selected projects that reflect my experience in machine learning, data analytics, data engineering, visualization, and cloud data platforms using Python, SQL, Snowflake, Power BI, Tableau, and R.
 
 ---
 
-## 📁 Repository Contents
+## 🛠 Technical Skills
 
-This repository includes all required components for the final project portfolio milestone in the M.S. in Applied Data Science program.
+**Programming:** Python, SQL, R
 
-- **Overview.pdf** – Name, SUID, email, and table of contents  
-- **Resume.pdf** – Updated professional resume  
-- **Written_Paper.md** – Portfolio reflection paper linking program learning outcomes to individual projects  
-- **Project Folders/** – Organized subfolders containing deliverables (code, reports, dashboards, SQL files, presentations) for each project
+**Machine Learning:** Scikit-learn, Clustering, Predictive Modeling
+
+**Data Engineering:** Snowflake, dbt
+
+**Visualization:** Power BI, Tableau
+
+**Analytics:** Data Analysis, Data Visualization, Business Intelligence
+
+**Cloud:** Cloud Data Platforms
 
 ---
 
 ## 🧠 Projects Overview
 
-Each project demonstrates core skills gained during the program—data analysis, visualization, predictive modeling, ethical reflection, and effective communication.
+The projects below showcase practical applications of data science across machine learning, analytics, visualization, data engineering, and cloud technologies. Each project focuses on solving a real-world problem using modern data tools and techniques.
 
 | Project | Description | Link |
 |--------|-------------|------|
