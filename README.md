@@ -26,15 +26,17 @@ Power BI • Tableau
 **Analytics**  
 Data Analysis • Business Intelligence • Data Visualization
 
-**Cloud**  
+**Cloud & Data Platforms**  
 Snowflake • dbt Cloud
 
 ---
 
 # ⭐ Selected Projects
 
-The projects below highlight practical applications of data science across machine learning, analytics, data engineering, visualization, and cloud technologies. Each project focuses on solving a real-world problem using modern data tools and techniques.
----
+The projects below showcase selected data science projects in machine learning, analytics, data engineering, visualization, and cloud technologies.
+
+Each project reflects practical experience using modern data tools to solve real-world business and analytical problems.
+
 
 ## MarFlix Intelligence
 
