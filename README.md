@@ -2,13 +2,15 @@
 
 ## Data Science Portfolio
 
-This repository contains a collection of selected data science projects completed throughout my M.S. in Applied Data Science at Syracuse University.
+This repository contains a collection of selected projects completed during my M.S. in Applied Data Science at Syracuse University.
 
-The projects showcase practical applications of machine learning, data analytics, data engineering, visualization, and cloud technologies using real-world datasets and modern data tools.
+The portfolio demonstrates practical applications of machine learning, data analytics, data engineering, data visualization, and cloud technologies using Python, SQL, Snowflake, dbt, Power BI, Tableau, and R.
+
+Each project highlights a real-world problem, the analytical approach, the technologies used, and the insights generated through data.
 
 ---
 
-## 🛠 Technical Skills
+# 🛠 Technical Skills
 
 ### Programming
 
@@ -22,13 +24,13 @@ Scikit-learn • Clustering • Predictive Modeling
 
 Snowflake • dbt
 
-### Data Visualization
+### Visualization
 
 Power BI • Tableau
 
 ### Analytics
 
-Data Analysis • Business Intelligence
+Data Analysis • Business Intelligence • Data Visualization
 
 ### Cloud & Data Platforms
 
@@ -36,11 +38,11 @@ Snowflake • dbt Cloud
 
 ---
 
-## ⭐ Selected Projects
+# ⭐ Selected Projects
 
-The projects below represent selected examples of my work across machine learning, analytics, data engineering, visualization, and cloud technologies.
+The projects below showcase practical applications of machine learning, analytics, data engineering, visualization, and cloud technologies.
 
-Each project focuses on applying data science techniques to solve practical business and analytical problems using modern data tools and real-world datasets.
+Each project demonstrates how data can be transformed into actionable insights through modern analytical techniques and real-world problem solving.
 
 
 ## MarFlix Intelligence
