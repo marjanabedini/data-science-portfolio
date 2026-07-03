@@ -1,12 +1,11 @@
 # Marjan Abedini
 
-## Data Science Portfolio | Machine Learning • Analytics • Data Engineering
+## Data Science | Machine Learning | Analytics Portfoli
 
-I'm a Data Scientist with a foundation in Statistics and an M.S. in Applied Data Science from Syracuse University.
 
-What I enjoy most about data science is turning large, complex datasets into clear insights that people can easily understand and use. Whether I'm writing Python code, exploring data, building dashboards, or developing machine learning models, I enjoy discovering patterns that help people make better decisions.
+I'm a Data Scientist with a background in Statistics and an M.S. in Applied Data Science from Syracuse University.
 
-This portfolio highlights selected projects demonstrating my experience in machine learning, data analytics, data engineering, visualization, and cloud-based analytics using Python, SQL, Snowflake, dbt, Power BI, Tableau, and R.
+I enjoy turning complex datasets into clear, actionable insights through machine learning, analytics, data engineering, and visualization. This portfolio showcases selected projects built with Python, SQL, Snowflake, Power BI, Tableau, and R.
 
 ---
 
@@ -34,8 +33,7 @@ Snowflake • dbt Cloud
 
 # ⭐ Selected Projects
 
-The projects below represent selected examples of my work in data science. They reflect my experience applying machine learning, analytics, data engineering, visualization, and cloud technologies to solve practical data problems using real-world datasets.
-
+The projects below highlight practical applications of data science across machine learning, analytics, data engineering, visualization, and cloud technologies. Each project focuses on solving a real-world problem using modern data tools and techniques.
 ---
 
 ## MarFlix Intelligence
