@@ -114,7 +114,7 @@ Explored salary trends across data science roles using statistical analysis and 
 https://www.linkedin.com/in/marjan-abedini
 
 **GitHub**  
-https://github.com/andia941394
+https://github.com/marjanabedini
 
 **Email**  
 abedini.marjan.60@gmail.com
