@@ -1,41 +1,46 @@
 # Marjan Abedini
 
-## Data Science | Machine Learning | Analytics Portfoli
+## Data Science Portfolio
 
+This repository contains a collection of selected data science projects completed throughout my M.S. in Applied Data Science at Syracuse University.
 
-I'm a Data Scientist with a background in Statistics and an M.S. in Applied Data Science from Syracuse University.
-
-I enjoy turning complex datasets into clear, actionable insights through machine learning, analytics, data engineering, and visualization. This portfolio showcases selected projects built with Python, SQL, Snowflake, Power BI, Tableau, and R.
+The projects showcase practical applications of machine learning, data analytics, data engineering, visualization, and cloud technologies using real-world datasets and modern data tools.
 
 ---
 
-# 🛠 Technical Skills
+## 🛠 Technical Skills
 
-**Programming**  
+### Programming
+
 Python • SQL • R
 
-**Machine Learning**  
+### Machine Learning
+
 Scikit-learn • Clustering • Predictive Modeling
 
-**Data Engineering**  
+### Data Engineering
+
 Snowflake • dbt
 
-**Visualization**  
+### Data Visualization
+
 Power BI • Tableau
 
-**Analytics**  
-Data Analysis • Business Intelligence • Data Visualization
+### Analytics
 
-**Cloud & Data Platforms**  
+Data Analysis • Business Intelligence
+
+### Cloud & Data Platforms
+
 Snowflake • dbt Cloud
 
 ---
 
-# ⭐ Selected Projects
+## ⭐ Selected Projects
 
-The projects below showcase selected data science projects in machine learning, analytics, data engineering, visualization, and cloud technologies.
+The projects below represent selected examples of my work across machine learning, analytics, data engineering, visualization, and cloud technologies.
 
-Each project reflects practical experience using modern data tools to solve real-world business and analytical problems.
+Each project focuses on applying data science techniques to solve practical business and analytical problems using modern data tools and real-world datasets.
 
 
 ## MarFlix Intelligence
