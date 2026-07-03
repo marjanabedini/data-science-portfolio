@@ -44,7 +44,7 @@ The projects below represent selected examples of my work in data science. They 
 
 Designed and built a cloud-based data warehouse by integrating multiple data sources into a dimensional star schema. Developed interactive Power BI dashboards to support reporting and data-driven decision-making.
 
-➡️ **[View Project](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST722%20%28Data%20Warehouse%29)**
+➡️ **[View Project](https://github.com/marjanabedini/data-science-portfolio/tree/main/Project%20Folders/IST722%20%28Data%20Warehouse%29)**
 
 ---
 
@@ -54,7 +54,7 @@ Designed and built a cloud-based data warehouse by integrating multiple data sou
 
 Applied unsupervised machine learning techniques to identify potentially fraudulent Airbnb listings in Hawaii. Explored hidden patterns through clustering algorithms and data visualization.
 
-➡️ **[View Project](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20707%20%28Applied%20Machine%20Learning%29)**
+➡️ **[View Project](https://github.com/marjanabedini/data-science-portfolio/tree/main/Project%20Folders/IST%20707%20%28Applied%20Machine%20Learning%29)**
 
 ---
 
@@ -64,7 +64,7 @@ Applied unsupervised machine learning techniques to identify potentially fraudul
 
 Developed an interactive Tableau dashboard to analyze storm events, weather trends, and geographic patterns across the United States.
 
-➡️ **[View Project](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20718%20%28Visual%20Analytics%20with%20Tableau%29)**
+➡️ **[View Project](https://github.com/marjanabedini/data-science-portfolio/tree/main/Project%20Folders/IST%20718%20%28Visual%20Analytics%20with%20Tableau%29)**
 
 ---
 
@@ -74,7 +74,7 @@ Developed an interactive Tableau dashboard to analyze storm events, weather tren
 
 Analyzed Citi Bike trip data to identify commuting behavior, weather impacts, and rider usage patterns through exploratory data analysis and visualization.
 
-➡️ **[View Project](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20652%20%28Scripting%20for%20Data%20Analysis%29)**
+➡️ **[View Project](https://github.com/marjanabedini/data-science-portfolio/tree/main/Project%20Folders/IST%20652%20%28Scripting%20for%20Data%20Analysis%29)**
 
 ---
 
@@ -84,7 +84,7 @@ Analyzed Citi Bike trip data to identify commuting behavior, weather impacts, an
 
 Analyzed household energy consumption data to identify factors influencing electricity usage and support data-driven recommendations.
 
-➡️ **[View Project](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20687%20%28Introduction%20to%20Data%20Science%29)**
+➡️ **[View Project](https://github.com/marjanabedini/data-science-portfolio/tree/main/Project%20Folders/IST%20687%20%28Introduction%20to%20Data%20Science%29)**
 
 ---
 
@@ -94,7 +94,7 @@ Analyzed household energy consumption data to identify factors influencing elect
 
 Designed and implemented a relational database system for event registration using normalization principles and SQL.
 
-➡️ **[View Project](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20659%20%28Data%20Administration%20Concepts%20and%20Database%20Management%29)**
+➡️ **[View Project](https://github.com/marjanabedini/data-science-portfolio/tree/main/Project%20Folders/IST%20659%20%28Data%20Administration%20Concepts%20and%20Database%20Management%29)**
 
 ---
 
@@ -104,7 +104,7 @@ Designed and implemented a relational database system for event registration usi
 
 Explored salary trends across data science roles using statistical analysis and interactive visualizations.
 
-➡️ **[View Project](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20719%20%28Information%20Visualization%29)**
+➡️ **[View Project](https://github.com/marjanabedini/data-science-portfolio/tree/main/Project%20Folders/IST%20719%20%28Information%20Visualization%29)**
 
 ---
 
