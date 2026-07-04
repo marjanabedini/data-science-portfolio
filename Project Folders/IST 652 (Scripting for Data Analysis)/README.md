@@ -1,24 +1,51 @@
 # Citi Bike NYC Trip Analysis
 
-This project was completed in the IST 652: Scripting for Data Analysis course. We examined city bike usage data from NYC and analyzed how it changed over time and weather conditions.
+## Project Overview
 
-## Team Members
+Developed as part of the **IST 652 – Scripting for Data Analysis** course at Syracuse University.
+
+This project analyzes New York City Citi Bike trip data together with weather information to explore how weather conditions influence bike usage patterns and commuting behavior.
+
+---
+
+## Objective
+
+- Analyze Citi Bike trip data using Python
+- Combine trip and weather datasets
+- Identify ridership trends under different weather conditions
+- Present findings through clear visualizations
+
+---
+
+## Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## Project Workflow
+
+- Data cleaning and preprocessing
+- Data integration (Citi Bike + Weather)
+- Exploratory Data Analysis (EDA)
+- Trend analysis
+- Data visualization
+
+---
+
+## Key Results
+
+- Ridership was highest on weekdays during commuting hours.
+- Rain and cold temperatures reduced bike usage.
+- Combining weather and trip data provided clearer insights into rider behavior.
+
+---
+
+## Contributors
+
 - Marjan Abedini
 - Ber Bakermans
-
-## Skills Demonstrated
-- Python scripting and data manipulation
-- Integration of multiple data sources (bike + weather)
-- Time series visualization
-- Ethical reflection on public transportation equity
-
-## Files Included
-- `EDA.ipynb`: Initial data cleaning and merging
-- `final_report.ipynb`: Full analysis and charts
-- `Citybike.final.pdf`: Project summary report
-
-## Software Needed
-- `Python` (via Jupyter Notebook), `libraries`: Pandas, Seaborn, Matplotlib
-  
-## GitHub Link
-[Citi Bike NYC Trip Analysis](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20652%20%28Scripting%20for%20Data%20Analysis%29)
