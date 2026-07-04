@@ -1,37 +1,58 @@
-## MarFlix Intelligence 
+# MarFlix Intelligence – Cloud Data Warehouse Project
 
-This project was part of the IST 722: Data Warehouse course. Our team integrated sales data from **Fudgemart (retail)** and **Fudgeflix (streaming)** into a unified analytics environment using **Snowflake**, **dbt**, and **Azure Blob (Parquet)**. We designed and implemented a **star schema** with conformed dimensions and fact tables, developed ELT pipelines, documented lineage, and created **Power BI dashboards** for executive-level insights.
+## Project Overview
 
-### Team Members
-- Ashish Kushwaha  
-- Rianne Parker  
-- Semi Babafemi   
-- Marjan Abedini 
+This project was completed as part of the IST 722 – Data Warehouse course in the M.S. in Applied Data Science program at Syracuse University.
 
-### Skills Demonstrated
-- Cloud data warehousing (Snowflake) setup and schema creation  
-- ELT pipelines using SQL `COPY INTO` from Azure Blob storage  
-- Dimensional modeling and conformed dimension design  
-- dbt modeling, documentation, and data quality testing  
-- Power BI dashboard creation for KPIs, revenue trends, and customer insights  
-- Team collaboration on large-scale BI project
+Our team designed and implemented an end-to-end cloud data warehouse by integrating retail (Fudgemart) and streaming (Fudgeflix) datasets into Snowflake. The project included ELT pipelines, dimensional modeling, dbt transformations, and interactive Power BI dashboards for business reporting.
 
-### Files Included
-- **SQLcode_tablecreation_populatingdata.txt** – Table creation & `COPY INTO` load scripts  
-- **dbt lab code.txt** – dbt models and YAML tests for dims/facts  
-- **DBT documentation with lineage.docx** – dbt model dependencies & lineage diagram  
-- **P - Dimensional-Modeling-Workbook-Merger(2).xlsx** – Star schema workbook  
-- **P - Fudgemart_companies_data_profiling (1).xlsx** – Data profiling results  
-- **P - Group_project_charter_canvas (1).docx** – Project charter  
-- **Group 1 Project Presentation _ IST722(4).pptx** – Final presentation slides  
-- **Total rows for each table populated.png** – Row counts for loaded tables
+---
 
-### Software Needed
-- Snowflake  
-- dbt Cloud  
-- Power BI Desktop  
-- Azure Blob Storage access
+## Objective
 
-### GitHub Link
-[**MarFlix Intelligence**](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST722%20%28Data%20Warehouse%29)
+- Build a cloud data warehouse using Snowflake
+- Integrate retail and streaming business data
+- Design a dimensional star schema
+- Develop ELT pipelines using SQL and dbt
+- Create interactive dashboards for business reporting
 
+---
+
+## Tools & Technologies
+
+- Snowflake
+- SQL
+- dbt Cloud
+- Azure Blob Storage
+- Power BI
+- Dimensional Modeling
+- ELT Pipelines
+
+---
+
+## Project Workflow
+
+- Load raw data into Snowflake
+- Build ELT pipelines using SQL
+- Transform data using dbt models
+- Design fact and dimension tables
+- Develop Power BI dashboards
+- Validate data quality and document lineage
+
+---
+
+## Key Results
+
+- Integrated retail and streaming datasets into a unified cloud data warehouse.
+- Built reusable ELT pipelines using Snowflake and dbt.
+- Designed a scalable star schema with conformed dimensions and fact tables.
+- Created interactive Power BI dashboards for analyzing revenue, customer activity, product performance, and sales trends.
+
+---
+
+## Contributors
+
+- Marjan Abedini
+- Ashish Kushwaha
+- Rianne Parker
+- Semi Babafemi
