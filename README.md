@@ -2,9 +2,9 @@
 
 ## Data Science Portfolio
 
-This repository contains a collection of selected projects completed during my M.S. in Applied Data Science at Syracuse University.
+This portfolio showcases selected projects completed during my M.S. in Applied Data Science at Syracuse University.
 
-The portfolio demonstrates practical applications of machine learning, data analytics, data engineering, data visualization, and cloud technologies using Python, SQL, Snowflake, dbt, Power BI, Tableau, and R.
+These projects demonstrate practical applications of machine learning, data analytics, data engineering, data visualization, and cloud technologies using Python, SQL, Snowflake, dbt, Power BI, Tableau, and R.
 
 Each project highlights a real-world problem, the analytical approach, the technologies used, and the insights generated through data.
 
@@ -18,7 +18,7 @@ Python • SQL • R
 
 ### Machine Learning
 
-Scikit-learn • Clustering • Predictive Modeling
+Scikit-learn • Clustering • Exploratory Data Analysis • Predictive Modeling
 
 ### Data Engineering
 
@@ -42,12 +42,12 @@ Snowflake • dbt Cloud
 
 The projects below showcase practical applications of machine learning, analytics, data engineering, visualization, and cloud technologies.
 
-Each project demonstrates how data can be transformed into actionable insights through modern analytical techniques and real-world problem solving.
+Each project focuses on solving a real-world problem using modern data tools and analytical techniques.
 
 
 ## MarFlix Intelligence
 
-**Tech Stack:** Snowflake • dbt • SQL • Power BI
+**Tools:** Snowflake • dbt • SQL • Power BI
 
 Designed and built a cloud-based data warehouse by integrating multiple data sources into a dimensional star schema. Developed interactive Power BI dashboards to support reporting and data-driven decision-making.
 
@@ -57,7 +57,7 @@ Designed and built a cloud-based data warehouse by integrating multiple data sou
 
 ## Airbnb Fraud Detection
 
-**Tech Stack:** Python • Scikit-learn • Pandas • Clustering
+**Tools:** Python • Scikit-learn • Pandas • Clustering
 
 Applied unsupervised machine learning techniques to identify potentially fraudulent Airbnb listings in Hawaii. Explored hidden patterns through clustering algorithms and data visualization.
 
@@ -67,7 +67,7 @@ Applied unsupervised machine learning techniques to identify potentially fraudul
 
 ## U.S. Storm Analysis Dashboard
 
-**Tech Stack:** Tableau • Data Visualization
+**Tools:** Tableau • Data Visualization
 
 Developed an interactive Tableau dashboard to analyze storm events, weather trends, and geographic patterns across the United States.
 
@@ -77,7 +77,7 @@ Developed an interactive Tableau dashboard to analyze storm events, weather tren
 
 ## Citi Bike NYC Trip Analysis
 
-**Tech Stack:** Python • Pandas • Data Analysis
+**Tools:** Python • Pandas • Data Analysis
 
 Analyzed Citi Bike trip data to identify commuting behavior, weather impacts, and rider usage patterns through exploratory data analysis and visualization.
 
@@ -87,7 +87,7 @@ Analyzed Citi Bike trip data to identify commuting behavior, weather impacts, an
 
 ## Residential Energy Consumption Analysis
 
-**Tech Stack:** R • Statistical Analysis
+**Tools:** R • Statistical Analysis
 
 Analyzed household energy consumption data to identify factors influencing electricity usage and support data-driven recommendations.
 
@@ -97,7 +97,7 @@ Analyzed household energy consumption data to identify factors influencing elect
 
 ## Event Management Database System
 
-**Tech Stack:** SQL • Database Design
+**Tools:** SQL • Database Design
 
 Designed and implemented a relational database system for event registration using normalization principles and SQL.
 
@@ -107,7 +107,7 @@ Designed and implemented a relational database system for event registration usi
 
 ## Data Science Salary Analysis
 
-**Tech Stack:** R • Data Visualization
+**Tools:** R • Data Visualization
 
 Explored salary trends across data science roles using statistical analysis and interactive visualizations.
 
@@ -117,13 +117,13 @@ Explored salary trends across data science roles using statistical analysis and 
 
 # 📫 Connect
 
-**LinkedIn**  
+**💼 LinkedIn**  
 https://www.linkedin.com/in/marjan-abedini
 
-**GitHub**  
+**💻 GitHub**  
 https://github.com/marjanabedini
 
-**Email**  
+**📧 Email**  
 abedini.marjan.60@gmail.com
 
 
