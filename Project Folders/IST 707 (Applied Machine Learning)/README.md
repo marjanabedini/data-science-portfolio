@@ -1,29 +1,58 @@
-# Airbnb Fraud Detection
+# Airbnb Fraud Detection using Unsupervised Machine Learning
 
-This project was part of the IST 707: Applied Machine Learning course. We applied clustering techniques using Python to detect fraudulent Airbnb listings in Hawaii by exploring data patterns with unsupervised learning. We implemented DBSCAN and K-Means, conducted exploratory analysis, and validated fraud detection clusters. Ethical considerations of algorithmic bias and fairness were also explored.
+## Project Overview
 
-## Team Members
+This project was completed as part of the IST 707 – Applied Machine Learning course in the M.S. in Applied Data Science program at Syracuse University.
+
+The project explores Airbnb listings in Hawaii to identify potentially fraudulent listings using unsupervised machine learning techniques. Clustering methods were applied to discover unusual listing patterns without predefined labels.
+
+---
+
+## Objective
+
+- Detect potentially fraudulent Airbnb listings
+- Explore hidden patterns using clustering algorithms
+- Compare clustering performance
+- Visualize clusters and interpret results
+
+---
+
+## Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+---
+
+## Project Workflow
+
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature engineering
+- Clustering using K-Means
+- Clustering using DBSCAN
+- Cluster evaluation
+- Data visualization
+
+---
+
+## Key Results
+
+- Identified groups of listings with unusual characteristics.
+- Compared K-Means and DBSCAN for clustering performance.
+- Visualized clusters to better understand listing behavior.
+- Demonstrated how unsupervised learning can support fraud detection.
+
+---
+
+## Contributors
+
 - Marjan Abedini
 - Ber Bakermans
 - Sophia Jaskoski
 - Tharuni Tekula
-
-## Skills Demonstrated
-- Data cleaning and preprocessing (Pandas, NumPy)
-- Unsupervised learning (K-Means, DBSCAN)
-- Clustering visualization (Matplotlib, Seaborn)
-- Evaluation of algorithmic fairness and bias
-
-## Files Included
-- `Clustering.ipynb`: Python notebook for model implementation
-- `EDA.ipynb`: Exploratory data analysis
-- `FraudValidation.ipynb`: Validating clustering results
-- `submission.ipynb`
-- `proposal.md`
-- `supporting docs`
-
-## Software Needed 
-- `Python` (via Jupyter Notebook), `libraries`: Pandas, Scikit-learn, Seaborn, Matplotlib
-
-## GitHub Link
-[Airbnb Fraud Detection](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20707%20%28Applied%20Machine%20Learning%29)
