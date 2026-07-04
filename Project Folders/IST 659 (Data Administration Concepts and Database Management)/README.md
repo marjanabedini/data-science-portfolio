@@ -1,18 +1,55 @@
 # Event Management Database System
 
-Created as part of IST 659: Data Administration Concepts and DBMS. This project involved designing and implementing a database system for event registration.
+## Project Overview
 
-## Team Members
+Developed as part of the **IST 659 – Data Administration Concepts and Database Management Systems** course at Syracuse University.
+
+This project focuses on designing a relational database system for an event management platform. The database supports event registration, participant management, scheduling, and data organization using database design principles.
+
+---
+
+## Objective
+
+- Design a normalized relational database
+- Build conceptual and logical database models
+- Create SQL queries to manage event data
+- Apply database design best practices
+
+---
+
+## Tools & Technologies
+
+- SQL
+- ER Modeling
+- Database Design
+- Draw.io
+- Relational Database Concepts
+
+---
+
+## Project Workflow
+
+- Requirements analysis
+- Conceptual database design (ER Diagram)
+- Logical database design
+- Database normalization
+- SQL query development
+- Documentation
+
+---
+
+## Key Results
+
+- Designed a normalized relational database structure
+- Developed conceptual and logical database diagrams
+- Created SQL queries for managing event information
+- Applied database design principles to improve data consistency
+
+---
+
+## Contributors
+
 - Marjan Abedini
 - Tharuni Tekula
 - Sindy Siddharth Reddy Kolli
 - Sudhanshu Gopalrao Pawar
-
-## Skills Demonstrated
-- Database schema design
-- SQL queries and stored procedures
-- ER and Logical Diagrams
-- Secure and ethical data handling
-
-## GitHub Link
-[Event Management Database](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20659%20%28Data%20Administration%20Concepts%20and%20Database%20Management%29)
