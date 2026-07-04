@@ -1,24 +1,57 @@
 # Tableau Business Dashboard – U.S. Storm Analysis
 
-In IST 718: Visual Analytics with Tableau, our team built a dashboard analyzing storm impacts across the U.S. using Tableau.
+## Project Overview
 
-## Team Members
+This project was completed as part of the IST 718 – Visual Analytics with Tableau course in the M.S. in Applied Data Science program at Syracuse University.
+
+The project focuses on analyzing storm events across the United States by designing an interactive Tableau dashboard. The dashboard helps explore storm patterns, locations, and impacts through interactive visualizations.
+
+---
+
+## Objective
+
+- Analyze U.S. storm event data
+- Build an interactive Tableau dashboard
+- Explore geographic and temporal storm patterns
+- Present insights through visual storytelling
+
+---
+
+## Tools & Technologies
+
+- Tableau
+- Microsoft Excel
+- Data Visualization
+- Dashboard Design
+- Interactive Filters
+- Parameters
+
+---
+
+## Project Workflow
+
+- Data preparation and cleaning
+- Data aggregation
+- Dashboard design
+- Interactive visualization development
+- Dashboard testing
+- Insight generation
+
+---
+
+## Key Results
+
+- Developed an interactive dashboard for exploring U.S. storm events.
+- Created dynamic filters and parameters for user-driven analysis.
+- Visualized geographic and temporal storm patterns.
+- Improved data exploration through interactive dashboards.
+
+---
+
+## Contributors
+
 - Marjan Abedini
 - Arsh Chandrakar
 - Prasanna Vinayak Dixit
 - Tessa Murphy
 - Rishabh Rai
-
-## Skills Demonstrated
-- Data aggregation in Excel
-- Tableau dashboard creation
-- Parameter and filter interactivity
-- Storytelling through dashboards
-
-## Files Included
-- The Tableau workbook file is hosted externally due to size limitations.
-
-🔗 [Download Tableau Dashboard (.twbx)](https://drive.google.com/file/d/1OVG_ZxRcjwOS2cQzonTzGUoAIAeoPTyk/view?usp=drive_link)
-
-## GitHub Link
-[Tableau Business Dashboard](https://github.com/andia941394/Portfolio-2025/tree/main/Project%20Folders/IST%20718%20%28Visual%20Analytics%20with%20Tableau%29)
